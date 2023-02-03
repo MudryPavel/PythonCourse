@@ -14,7 +14,7 @@ for i in range (n):
         count1+=1
     else:
         print("Некорректное число")
-if count0<count1:
-    print(f"Нужно перевернуть {count0} монет")
-else:
-    print(f"Нужно перевернуть {count1} монет")
+mini=count0
+if mini>count1:
+    mini=count1
+print(f"Нужно перевернуть {mini} монет")

@@ -2,5 +2,5 @@
 n=int(input("Введите число:"))
 x=0
 while (2**x<=n):
-    print(f"{2**x} ")
+    print(f"{2**x} ", end="")
     x+=1
